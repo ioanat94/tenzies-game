@@ -21,6 +21,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 50px;
 }
 
 .App--container {
@@ -41,5 +42,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+}
+
+.App--button {
+  background-color: #5035FF;
+  box-shadow: 0px 5px 9px rgba(0, 0, 0, 0.18);
+  border: none;
+  border-radius: 6px;
+  padding: 15px 45px;
+  font-family: 'Karla';
+  color: white;
+  font-size: 22px;
   cursor: pointer;
 }

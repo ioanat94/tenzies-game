@@ -14,11 +14,16 @@ function App() {
 
   const diceElements = dice.map(die => <Die value={die} />)
 
+  function reroll() {
+    setDice(allNewDice())
+  }
+
   return (
     <main className='App'>
       <div className='App--container'>
         {diceElements}
       </div>
+      <button className='App--button' onClick={reroll}>Roll</button>
     </main>
   );
 }
