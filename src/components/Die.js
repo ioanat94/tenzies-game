@@ -1,6 +1,6 @@
 function Die(props) {
     return (
-        <div className='die'>
+        <div className={props.isHeld ? 'die-held' : 'die'} onClick={props.holdDice}>
             {props.value}
         </div>
     )
