@@ -1,7 +1,9 @@
 # Tenzies Game
 Tenzies game in React.  
 
-Live preview: coming soon
+Roll until all dice are the same. Click each die to freeze it at its current value between rolls.  
+
+Live preview: https://ioanat94.github.io/tenzies-game/
 
 How to run the project:  
 
